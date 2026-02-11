@@ -17,7 +17,7 @@ EOT
     storage_mover_id = string
     description      = optional(string)
     export           = optional(string)
-    nfs_version      = optional(string, "NFSauto")
+    nfs_version      = optional(string) # Default: "NFSauto"
   }))
 }
 
